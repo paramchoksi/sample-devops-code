@@ -11,4 +11,4 @@ steps:
       --delivery-pipeline=hello-world-app
       --region=us-central1
       --source=./
-      --images=hello-world-app=us-central1-docker.pkg.dev/$PROJECT_ID/cloud-run-source-deploy/hello-world:$SHORT_SHA
+      --images=hello-world-app=us-central1-docker.pkg.dev/sample-cicd-389809/cloud-run-source-deploy/hello-world:$SHORT_SHA
